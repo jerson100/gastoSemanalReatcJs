@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/gastoSemanalReatcJs/static/css/main.677bc2c7.chunk.css",
+    "main.js": "/gastoSemanalReatcJs/static/js/main.56496416.chunk.js",
+    "main.js.map": "/gastoSemanalReatcJs/static/js/main.56496416.chunk.js.map",
+    "runtime-main.js": "/gastoSemanalReatcJs/static/js/runtime-main.62d3fddc.js",
+    "runtime-main.js.map": "/gastoSemanalReatcJs/static/js/runtime-main.62d3fddc.js.map",
+    "static/js/2.fe12cda2.chunk.js": "/gastoSemanalReatcJs/static/js/2.fe12cda2.chunk.js",
+    "static/js/2.fe12cda2.chunk.js.map": "/gastoSemanalReatcJs/static/js/2.fe12cda2.chunk.js.map",
+    "index.html": "/gastoSemanalReatcJs/index.html",
+    "precache-manifest.f12a8d20c500fc59345a9c5e6d476de9.js": "/gastoSemanalReatcJs/precache-manifest.f12a8d20c500fc59345a9c5e6d476de9.js",
+    "service-worker.js": "/gastoSemanalReatcJs/service-worker.js",
+    "static/css/main.677bc2c7.chunk.css.map": "/gastoSemanalReatcJs/static/css/main.677bc2c7.chunk.css.map",
+    "static/js/2.fe12cda2.chunk.js.LICENSE.txt": "/gastoSemanalReatcJs/static/js/2.fe12cda2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.62d3fddc.js",
+    "static/js/2.fe12cda2.chunk.js",
+    "static/css/main.677bc2c7.chunk.css",
+    "static/js/main.56496416.chunk.js"
+  ]
+}
