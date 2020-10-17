@@ -1,0 +1,17 @@
+.agregar-gasto {
+  &__title {
+    margin-bottom: 2.5rem;
+    margin-top: 0;
+    text-align: center;
+    color: var(--primary-color);
+  }
+  &__group {
+    margin-bottom: 2rem;
+  }
+
+  &__name {
+    display: block;
+    margin-bottom: 0.8rem;
+    font-weight: bold;
+  }
+}

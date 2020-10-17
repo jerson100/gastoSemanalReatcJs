@@ -1,0 +1,11 @@
+.question {
+  &__title {
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    @media (min-width: 768px) {
+      font-size: 35px;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.reportesemanal-dashboard {
+  display: flex;
+  flex-direction: column;
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+  &__left {
+    margin-bottom: 3rem;
+    @media (min-width: 768px) {
+      margin-bottom: 0;
+      flex: 1 0 0;
+      margin-right: 2rem;
+    }
+  }
+  &__right {
+    @media (min-width: 768px) {
+      flex: 1 0 0;
+    }
+  }
+}

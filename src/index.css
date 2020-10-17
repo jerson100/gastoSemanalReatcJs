@@ -1,13 +1,131 @@
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
+  font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  background: #000428; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #004e92, #000428);
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: linear-gradient(to right, #004e92, #000428);
+}
+
+p {
+  margin-top: 0;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.h1,
+h1 {
+  font-size: 2.15rem;
+}
+
+.h2,
+h2 {
+  font-size: 1.75rem;
+}
+
+.h3,
+h3 {
+  font-size: 1.55rem;
+}
+
+.h4,
+h4 {
+  font-size: 1.35rem;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+@media screen and (min-width: 768px) {
+  .h1,
+  h1 {
+    font-size: 2.5rem;
+  }
+  .h2,
+  h2 {
+    font-size: 2.15rem;
+  }
+  .h3,
+  h3 {
+    font-size: 2.15rem;
+  }
+  .h4,
+  h4 {
+    font-size: 1.55rem;
+  }
+}
+
+.btn {
+  background-color: rgb(27, 164, 212);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  outline: 0;
+  padding: 0.8rem 0.6rem;
+  border: solid 1px rgb(27, 164, 212);
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn--fill {
+  display: block;
+  width: 100%;
+}
+
+.btn--align-right {
+  display: block;
+  margin-left: auto;
+}
+
+.btn--align-left {
+  display: block;
+  margin-right: auto;
+}
+
+.btn:hover {
+  background-color: rgb(23, 133, 173);
+}
+
+input {
+  font-size: 14px;
+  display: block;
+  width: 100%;
+  padding: 0.8rem 0.6rem;
+  outline: 0;
+  border: solid 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+:root {
+  --primary-color: #345774;
 }
